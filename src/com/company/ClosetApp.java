@@ -11,7 +11,7 @@ public class ClosetApp {
         Closet vacation = new Closet();
 
         //Making an array List
-        ArrayList<Closet> myCloset = new ArrayList<Closet>;
+        ArrayList<Closet> myCloset = new ArrayList<Closet>();
 
         myCloset.add(work);
         myCloset.add(play);
