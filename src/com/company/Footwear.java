@@ -2,13 +2,13 @@ package com.company;
 
 public class Footwear {
     private String typeOfFootware;
-    private double sizeOfShoe;
+    private String sizeOfShoe;
     private String color;
 
     public Footwear() {
     }
 
-    public Footwear(String typeOfFootware, double sizeOfShoe, String color) {
+    public Footwear(String typeOfFootware, String sizeOfShoe, String color) {
         this.typeOfFootware = typeOfFootware;
         this.sizeOfShoe = sizeOfShoe;
         this.color = color;
@@ -22,11 +22,11 @@ public class Footwear {
         this.typeOfFootware = typeOfFootware;
     }
 
-    public double getSizeOfShoe() {
+    public String getSizeOfShoe() {
         return sizeOfShoe;
     }
 
-    public void setSizeOfShoe(double sizeOfShoe) {
+    public void setSizeOfShoe(String sizeOfShoe) {
         this.sizeOfShoe = sizeOfShoe;
     }
 
@@ -38,5 +38,13 @@ public class Footwear {
         this.color = color;
     }
 
+    public String thisShoe(){
+        String TempFootware = typeOfFootware;
+        String TempSizeofShoe = sizeOfShoe;
+        String TempColor = color;
+
+
+        return "A " + TempColor + " " + TempFootware  +  " size "+ TempSizeofShoe;
+    }
 
 }
