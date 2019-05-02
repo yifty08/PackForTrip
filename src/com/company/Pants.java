@@ -39,4 +39,15 @@ public class Pants {
     public void setSize(String size) {
         this.size = size;
     }
+
+
+    public String thesePants(){
+        String TempTypeOfPants = typeOfPants;
+        String TempColor = color;
+        String TempSize = size;
+
+        return "A "+TempColor + "pair of "+ TempTypeOfPants+" size"+ TempSize;
+
+    }
+
 }
