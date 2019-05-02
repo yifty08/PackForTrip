@@ -27,4 +27,5 @@ public class Jacket {
     public void setMaterial(String material) {
         this.material = material;
     }
+
 }
